@@ -16,7 +16,6 @@
 
         public int Count { get; set; }
 
-        
         public void Enqueue(T item)
         {
             if(this.Count >= this.elements.Length)
@@ -58,10 +57,17 @@
             this.Count--;
             return head;
         }
+        
         public T Peek()
         {
-            throw new NotImplementedException();
+            if(this.elements.Length == 0)
+            {
+                throw new InvalidOperationException();
+            }
+
+            return elements[this.Count-1];
         }
+        
         public IEnumerator<T> GetEnumerator()
         {
             for (int currentIndex = 0; currentIndex < this.Count; currentIndex++)
