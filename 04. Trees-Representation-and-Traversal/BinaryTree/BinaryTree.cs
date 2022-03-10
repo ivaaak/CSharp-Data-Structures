@@ -1,4 +1,4 @@
-﻿namespace _01.BinaryTree
+﻿namespace BinaryTree
 {
     using System;
     using System.Collections.Generic;
