@@ -1,4 +1,4 @@
-namespace _01.BinaryTree.Tests
+namespace BinaryTree.Tests
 {
     using NUnit.Framework;
     using _01.BinaryTree;
