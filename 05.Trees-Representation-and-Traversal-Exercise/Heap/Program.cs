@@ -14,8 +14,8 @@ namespace Heap
                 integerHeap.Add(el);
 
             }
-            //Console.WriteLine(integerHeap.DFSInOrder(0, 0));
-            //Console.WriteLine("\n");
+            
+            Console.WriteLine(integerHeap.DFSInOrder(0, 0));
 
             var queue = new PriorityQueue<int>();
             elements = new List<int>() { 15, 25, 6, 9, 5, 8, 17, 16 };
