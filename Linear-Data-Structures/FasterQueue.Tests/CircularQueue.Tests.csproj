@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\01.FasterQueue\01.CircularQueue.csproj" />
+    <ProjectReference Include="..\FasterQueue\CircularQueue.csproj" />
   </ItemGroup>
 </Project>
