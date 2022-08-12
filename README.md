@@ -26,3 +26,12 @@ A collection of different implementations of common data structures (from the So
 - **Heap**
 - **Max Heap**
 - **Priority Queue**
+
+## Sorting(6)
+- **BubbleSort**
+- **HeapSort**
+- **InsertionSort**
+- **MergeSort**
+- **QuickSort**
+- **SelectionSort**
+- **ShellSort**
